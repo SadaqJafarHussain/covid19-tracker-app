@@ -117,13 +117,13 @@ class PersonalInfo extends StatelessWidget {
           backgroundColor: Colors.orangeAccent,
           child: CircleAvatar(
             maxRadius: height * 0.12,
-            backgroundImage: NetworkImage("https://i.ibb.co/mXRTGQX/Hamza.jpg"),
+            backgroundImage: NetworkImage("images/my_photo.jpg"),
           ),
         ),
         SizedBox(
           height: height * 0.01,
         ),
-        Text("Muhammad Hamza",
+        Text("Sadaq Jafar",
             style: TextStyle(
                 fontFamily: 'MyFont',
                 fontSize: height * 0.03,
@@ -149,7 +149,7 @@ class PersonalInfo extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 fontSize: height * 0.02),
           ),
-          Text("hamza.6.shakeel@gmail.com",
+          Text("jafarsadaq511@gmail.com",
               style: TextStyle(fontFamily: 'MyFont', fontSize: height * 0.02)),
         ]),
       ],

@@ -1,5 +1,4 @@
-import 'package:covid19/views/about.dart';
-import 'package:covid19/views/pakistan.dart';
+import 'package:covid19/views/iraq.dart';
 import 'package:flutter/material.dart';
 import 'package:covid19/views/world.dart';
 import 'package:covid19/views/countries.dart';
@@ -12,7 +11,7 @@ class Dashboard extends StatefulWidget {
 
 class _DashboardState extends State<Dashboard> with TickerProviderStateMixin {
   int currentIndex = 0;
-  final List<Widget> children = [World(), Pakistan(), Country(), About()];
+  final List<Widget> children = [World(), Iraq(), Country()];
   AnimationController _controller;
 
   @override
